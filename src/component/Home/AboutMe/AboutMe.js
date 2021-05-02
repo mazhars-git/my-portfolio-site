@@ -14,7 +14,7 @@ const AboutMe = () => {
                     <h4>Who am I?</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deleniti omnis ducimus mollitia molestiae ratione officia maxime esse illo quidem sunt, eos vel repudiandae dolor cupiditate, labore voluptatum exercitationem incidunt.</p>
 
-                    <button className="btn btn-info">Download Resume</button>
+                    <button className="btn btn-info"><a href="https://drive.google.com/file/d/1zBJQ5At9bR30qYOxlnjMrGwLaVzEIVSG/view?usp=sharing" target="_blank">DOWNLOAD RESUME</a></button>
                 </div>
             </div>
         </section>

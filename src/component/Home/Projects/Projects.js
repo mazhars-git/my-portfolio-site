@@ -1,20 +1,25 @@
 import React from 'react';
-import projectImg from '../../../images/features.png';
+import projectImg from '../../../images/plumber copy.png';
+import projectImg_2 from '../../../images/OmegaShop.jpg';
+import projectImg_3 from '../../../images/Riders.jpg';
 import ProjectInfo from '../ProjectInfo/ProjectInfo';
 
 const Projects = () => {
     const projectsInfo=[
         {
             img: projectImg,
-            title: 'Hello Plumber'
+            title: 'Hello Plumber',
+            link: 'https://hello-plumber-project.web.app/'
         },
         {
-            img: projectImg,
-            title: 'O-Mega Shop'
+            img: projectImg_3,
+            title: 'O-Mega Shop',
+            link: 'https://desh-riders-app.web.app/'
         },
         {
-            img: projectImg,
-            title: 'Desh Riders'
+            img: projectImg_2,
+            title: 'Desh Riders',
+            link: 'https://o-mega-shop.web.app/'
         },
     ]
     return (
