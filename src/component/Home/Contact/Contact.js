@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import ReactDOM from "react-dom";
 import { useForm } from "react-hook-form";
+import emailjs from 'emailjs-com';
 import './Contact.css';
 
 const Contact = () => {
@@ -16,6 +17,19 @@ const Contact = () => {
       const onSubmit = (data) => {
         console.log(data);
       };
+    
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_b9sbwm1', 'template_da0hb0i', e.target, 'user_XcuLVfeiXcknkKPIsJs5U')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset();
+    }
+
     return (
         <section id="contact" className="container py-5">
             <p className="text-center">Feel free to contact me anytime</p>
@@ -40,11 +54,11 @@ const Contact = () => {
                 </div>
                 <div className="col-md-8">
                     <h3 className="text-medium py-2">Message Me</h3>
-                    <form onSubmit={handleSubmit(onSubmit)}>
-                        <input placeholder="Name" {...register("example")} />
-                        <input placeholder="Email" {...register("exampleRequired", { required: true })} />
+                    <form onSubmit={sendEmail}>
+                        <input placeholder="Name" name="name" {...register("example")} />
+                        <input placeholder="Email" name="email" {...register("exampleRequired", { required: true })} />
                         {errors.exampleRequired && <span>This field is required</span>}
-                        <textarea placeholder="Message" {...register("example")} />
+                        <textarea placeholder="Message" name="message" {...register("example")} />
 
                         <input type="submit" />
                     </form>
