@@ -17,7 +17,6 @@
 }
 .social-icon ul li a{
   text-decoration: none;
-  color: red;
 }
 
 form {
@@ -52,7 +51,7 @@ input, textarea {
   
   button[type="submit"],
   input[type="submit"] {
-    background: #ec5990;
+    background: #ff8757;
     color: white;
     text-transform: uppercase;
     border: none;

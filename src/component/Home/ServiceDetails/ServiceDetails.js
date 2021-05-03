@@ -6,9 +6,11 @@ const ServiceDetails = ({service}) => {
     return (
         <div className="col-md-4 p-0">
             <div className="service-info">
-                <p><FontAwesomeIcon className="icon" icon={service.img} /></p>
-                <h3 className="my-3">{service.title}</h3>
-                <p>{service.details}</p>
+                <div className="service-box">
+                    <p><FontAwesomeIcon className="icon" icon={service.img} /></p>
+                    <h3 className="my-3">{service.title}</h3>
+                    <p>{service.details}</p>
+                </div>
             </div>
         </div>
     );

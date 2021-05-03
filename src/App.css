@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.full-area{
+  background-color: ;
+}
 .text-brand{
   text-align: center;
   font-weight: 700;
@@ -15,17 +18,75 @@
 }
 
 .link-style{
-  color: #fff;
+  color: rgb(0, 81, 255);
 }
 .link-style:hover{
   text-decoration: none;
-  color: yellow;
+  color: rgb(31, 255, 1);
 }
 .logo{
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-weight: bold;
-  color: red;
+  color: rgb(255, 123, 0);
 }
 
+/*------------Styling button-------*/
+
+.btn-brand {
+  width: 150px;
+  height: 50px;
+  border: 4px solid rgb(18, 219, 62);
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  transition: 1s;
+}
+
+.btn-brand::before, .btn-brand::after {
+  position: absolute;
+  background: rgb(255, 175, 71);
+  z-index: -1;
+  transition: 1s;
+  content: '';
+}
+
+.btn-brand::before {
+  height: 50px;
+  width: 130px;
+}
+
+.btn-brand::after {
+  width: 150px;
+  height: 30px;
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.btn-brand:hover::before {
+  width: 0px;
+  background: #fff;
+}
+
+.btn-brand:hover::after {
+  height: 0px;
+  background: #fff;
+}
+
+.btn-brand:hover {
+  background: #fff;
+}
 
 

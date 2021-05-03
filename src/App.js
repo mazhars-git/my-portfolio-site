@@ -13,7 +13,7 @@ import Services from "./component/Home/Services/Services";
 
 function App() {
   return (
-    <div>
+    <div className="full-area">
       <Router>
         <Switch>
           <Route path='/home'>

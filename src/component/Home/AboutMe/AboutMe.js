@@ -5,16 +5,16 @@ const AboutMe = () => {
     return (
         <section id="about" className="container p-5">
             <h6 className="text-center">Get to know me!</h6>
-            <h1 className="text-center">About Me</h1>
+            <h1 className="text-brand">About Me</h1>
             <div className="row">
                 <div className="col-md-6">
                     <img className="img-fluid" src={profileImg} alt=""/>
                 </div>
                 <div className="col-md-6 align-self-center pl-5">
-                    <h4>Who am I?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deleniti omnis ducimus mollitia molestiae ratione officia maxime esse illo quidem sunt, eos vel repudiandae dolor cupiditate, labore voluptatum exercitationem incidunt.</p>
+                    <h4 className="py-2">Who am I?</h4>
+                    <p style={{fontSize: '17px', lineHeight: '30px'}}>I am a professional web developer. I have completed more then 15+ projects on programming sector. I am good at JavaScript, React and React Native. I can design and develop any kind of web site with responsive.</p>
 
-                    <button className="btn btn-info"><a className="link-style" href="https://drive.google.com/file/d/1zBJQ5At9bR30qYOxlnjMrGwLaVzEIVSG/view?usp=sharing" target="_blank">DOWNLOAD RESUME</a></button>
+                    <button className="btn-brand"><a className="link-style" href="https://drive.google.com/file/d/1zBJQ5At9bR30qYOxlnjMrGwLaVzEIVSG/view?usp=sharing" target="_blank">RESUME</a></button>
                 </div>
             </div>
         </section>

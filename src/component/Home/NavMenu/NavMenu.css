@@ -1,0 +1,7 @@
+.main-menu ul li a{
+    font-weight: 600;
+    color: navy !important;
+}
+.main-menu ul li a:hover{
+    color: tomato !important;
+}
