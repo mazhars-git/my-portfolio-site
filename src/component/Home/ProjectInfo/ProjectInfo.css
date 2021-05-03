@@ -18,3 +18,8 @@
     opacity: 0.3;
     transition: .3s;
 }
+.project-content{
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    border-radius: 5px;
+}

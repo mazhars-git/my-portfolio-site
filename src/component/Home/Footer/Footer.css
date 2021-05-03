@@ -1,0 +1,9 @@
+.footer-area{
+    background-color: black;
+    color: #fff;
+}
+.footer-area p{
+    padding: 20px 0;
+    margin-top: 15px;
+    font-size: 18px;
+}

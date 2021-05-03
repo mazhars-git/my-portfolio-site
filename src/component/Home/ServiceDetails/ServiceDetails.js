@@ -7,7 +7,7 @@ const ServiceDetails = ({service}) => {
         <div className="col-md-4 p-0">
             <div className="service-info">
                 <p><FontAwesomeIcon className="icon" icon={service.img} /></p>
-                <h3>{service.title}</h3>
+                <h3 className="my-3">{service.title}</h3>
                 <p>{service.details}</p>
             </div>
         </div>

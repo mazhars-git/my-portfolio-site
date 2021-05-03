@@ -3,7 +3,7 @@ import profileImg from '../../../images/mazhar.png';
 
 const AboutMe = () => {
     return (
-        <section className="container p-5">
+        <section id="about" className="container p-5">
             <h6 className="text-center">Get to know me!</h6>
             <h1 className="text-center">About Me</h1>
             <div className="row">
@@ -14,7 +14,7 @@ const AboutMe = () => {
                     <h4>Who am I?</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deleniti omnis ducimus mollitia molestiae ratione officia maxime esse illo quidem sunt, eos vel repudiandae dolor cupiditate, labore voluptatum exercitationem incidunt.</p>
 
-                    <button className="btn btn-info"><a href="https://drive.google.com/file/d/1zBJQ5At9bR30qYOxlnjMrGwLaVzEIVSG/view?usp=sharing" target="_blank">DOWNLOAD RESUME</a></button>
+                    <button className="btn btn-info"><a className="link-style" href="https://drive.google.com/file/d/1zBJQ5At9bR30qYOxlnjMrGwLaVzEIVSG/view?usp=sharing" target="_blank">DOWNLOAD RESUME</a></button>
                 </div>
             </div>
         </section>
