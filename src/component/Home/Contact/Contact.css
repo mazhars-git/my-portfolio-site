@@ -51,13 +51,13 @@ input, textarea {
   
   button[type="submit"],
   input[type="submit"] {
-    background: #ff8757;
+    background: #ff6347;
     color: white;
     text-transform: uppercase;
     border: none;
     margin-top: 40px;
     padding: 20px;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 600;
     letter-spacing: 10px;
   }
