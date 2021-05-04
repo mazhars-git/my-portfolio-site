@@ -21,7 +21,7 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('service_b9sbwm1', 'template_da0hb0i', e.target, 'user_XcuLVfeiXcknkKPIsJs5U')
+        emailjs.sendForm('service_b9sbwm1', 'template_71o3jm4', e.target, 'user_XcuLVfeiXcknkKPIsJs5U')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -55,10 +55,10 @@ const Contact = () => {
                 <div className="col-md-8">
                     <h3 className="text-medium py-2">Message Me</h3>
                     <form onSubmit={sendEmail}>
-                        <input placeholder="Name" name="name" {...register("example")} />
-                        <input placeholder="Email" name="email" {...register("exampleRequired", { required: true })} />
+                        <input placeholder="Name" name="name" {...register("name")} />
+                        <input placeholder="Email" name="email" {...register("email", { required: true })} />
                         {errors.exampleRequired && <span>This field is required</span>}
-                        <textarea placeholder="Message" name="message" {...register("example")} />
+                        <textarea placeholder="Message" name="message" {...register("message")} />
 
                         <input type="submit" />
                     </form>
