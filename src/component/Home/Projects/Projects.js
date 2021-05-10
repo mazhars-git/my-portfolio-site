@@ -16,13 +16,13 @@ const Projects = () => {
             img: projectImg_2,
             title: 'O-Mega Shop',
             description: 'This is a simple e-commerce web site. Here is designed some pages. Using Home page you can order any product.',
-            link: 'https://desh-riders-app.web.app/'
+            link: 'https://o-mega-shop.web.app/'
         },
         {
             img: projectImg_3,
             title: 'Desh Riders',
             description: 'This is a ride sharing web site. In this site you can order any rider. You can set your destination.',
-            link: 'https://o-mega-shop.web.app/'
+            link: 'https://desh-riders-app.web.app/'
         },
     ]
     return (
