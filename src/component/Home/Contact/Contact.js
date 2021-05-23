@@ -55,11 +55,9 @@ const Contact = () => {
                 <div className="col-md-8">
                     <h3 className="text-medium py-2">Message Me</h3>
                     <form onSubmit={sendEmail}>
-                        <input placeholder="Name" name="name" {...register("name")} />
-                        <input placeholder="Email" name="email" {...register("email", { required: true })} />
-                        {errors.exampleRequired && <span>This field is required</span>}
-                        <textarea placeholder="Message" name="message" {...register("message")} />
-
+                        <input placeholder="Name" name="name" required {...register("name")} />
+                        <input placeholder="Email" name="email" required {...register("email")} />
+                        <textarea placeholder="Message" name="message" required {...register("message")} />
                         <input type="submit" />
                     </form>
                 </div>

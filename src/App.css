@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.bg-color{
+  background-color: #16153a;
+  color: #fff;
+}
 
 .text-brand{
   text-align: center;
@@ -33,7 +37,7 @@
 .btn-brand {
   width: 150px;
   height: 50px;
-  border: 3px solid rgb(18, 219, 62);
+  border: 2px solid rgb(18, 219, 62);
   font-family: 'Cinzel', serif;
   font-size: 20px;
   cursor: pointer;

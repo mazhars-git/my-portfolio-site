@@ -49,10 +49,10 @@
     content: '';
     position: absolute;
     z-index: -1;
-    left: 6px;
-    top: 6px;
+    left: 5px;
+    top: 5px;
     width: calc(100% - 12px);
     height: calc(100% - 12px);
-    background: white;
+    background: rgb(85, 99, 119);
     border-radius: 5px;
 }
