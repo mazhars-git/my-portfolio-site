@@ -1,4 +1,3 @@
-import { faFacebook, faFacebookF, faGithub, faGithubAlt, faGithubSquare, faInstagram, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHome, faPhone, } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -43,14 +42,7 @@ const Contact = () => {
                         <li> <FontAwesomeIcon className="icon" icon={faPhone} /> +880 1309 075 511</li>
                         <li> <FontAwesomeIcon className="icon" icon={faEnvelope} /> mazharulislam611@gmail.com</li>
                     </ul>
-                    <div className="social-icon pt-5">
-                        <ul>
-                            <li> <a target="_blank" href="https://github.com/mazhars-git"><FontAwesomeIcon className="sIcon" icon={faGithub} /></a> </li>
-                            <li> <a target="_blank" href="https://www.linkedin.com/in/md-mazharul-islam-15b31618a/"><FontAwesomeIcon className="sIcon" icon={faLinkedin} /></a> </li>
-                            <li> <a target="_blank" href="https://www.facebook.com/noman.abdullah.71619/"><FontAwesomeIcon className="sIcon" icon={faFacebook} /></a> </li>
-                            <li> <a target="_blank" href="https://www.instagram.com/mazhar.in/"><FontAwesomeIcon className="sIcon" icon={faInstagram} /></a> </li>
-                        </ul>
-                    </div>  
+                    
                 </div>
                 <div className="col-md-8">
                     <h3 className="text-medium py-2">Message Me</h3>

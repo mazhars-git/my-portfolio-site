@@ -1,6 +1,3 @@
-.contact-info ul{
-  padding: 0;
-}
 .contact-info ul li{
   list-style: none;
   font-size: 20px;
@@ -17,6 +14,7 @@
 }
 .social-icon ul li a{
   text-decoration: none;
+  color: #ff6347;
 }
 
 form {

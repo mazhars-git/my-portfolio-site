@@ -8,7 +8,7 @@ const ProjectInfo = ({project}) => {
                 <div className="project-box">
                     <img className="img-fluid project-img" src={project.img} alt=""/>
                     <div className="project-btn">
-                        <button className="btn btn-info"><a className="link-style" href={project.link} target="_blank">Live Preview</a></button>
+                        <button className="btn btn-project"><a className="link-style" href={project.link} target="_blank">Preview</a></button>
                     </div>
                 </div>
                 <h4 className="pt-3">{project.title}</h4>
