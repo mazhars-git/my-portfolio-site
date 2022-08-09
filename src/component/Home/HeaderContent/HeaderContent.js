@@ -4,6 +4,8 @@ import React from 'react';
 import Typical from 'react-typical';
 import profile from '../../../images/profile.png';
 import '../../Home/Contact/Contact.css';
+import AOS from 'aos';
+AOS.init();
 
 const HeaderContent = () => {
     return (
@@ -32,8 +34,10 @@ const HeaderContent = () => {
                         </ul>
                     </div>  
                 </div>
-                <div className="col-md-6 pt-4">
-                    <img className="img-fluid" src={profile} alt=""/>
+                <div 
+                    className="col-md-6 pt-4"
+                    >
+                    <img data-aos="zoom-in-left" className="img-fluid" src={profile} alt=""/>
                 </div>
             </div>
         </section>

@@ -7,7 +7,11 @@ const AboutMe = () => {
             <h6 className="text-center">Get to know me!</h6>
             <h1 className="text-brand">About Me</h1>
             <div className="row">
-                <div className="col-md-6">
+                <div
+                data-aos="fade-right"
+                data-aos-offset="600"
+                data-aos-easing="ease-in-sine"
+                 className="col-md-6">
                     <img className="img-fluid" src={profileImg} alt=""/>
                 </div>
                 <div className="col-md-6 align-self-center pl-5">
