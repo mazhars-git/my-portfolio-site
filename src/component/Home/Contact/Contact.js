@@ -34,7 +34,7 @@ const Contact = () => {
             <p className="text-center">Feel free to contact me anytime</p>
             <h2 className="text-brand p-0 pb-5">Get in Touch</h2>
             <div className="row">
-                <div className="col-md-4 contact-info pb-2">
+                <div data-aos="flip-up" className="col-md-4 contact-info pb-2">
                     <h3 className="text-medium py-2">Contact Info</h3>
                     <p className="py-2">I am always available for your service. Feel free to contact me to get best project.</p>
                     <ul>
@@ -44,7 +44,7 @@ const Contact = () => {
                     </ul>
                     
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-8" data-aos="fade-down-left">
                     <h3 className="text-medium py-2">Message Me</h3>
                     <form onSubmit={sendEmail}>
                         <input placeholder="Name" name="name" required {...register("name")} />
