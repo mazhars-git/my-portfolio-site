@@ -1,7 +1,6 @@
 .project-box {
     position: relative;
 }
-
 .project-btn {
     transition: .5s ease;
     opacity: 0;
@@ -22,9 +21,12 @@
     transition: .3s;
 } */
 .project-content {
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 15px #b3b3b3;
     padding: 10px;
     border-radius: 5px;
+}
+.project-content .project-title{
+    color: #ff6347;
 }
 
 .screen {
@@ -40,7 +42,7 @@
 
 .screen img {
     left: 0;
-    bottom: -350px;
+    bottom: -550px;
     width: 100%;
     height: auto;
     position: absolute;

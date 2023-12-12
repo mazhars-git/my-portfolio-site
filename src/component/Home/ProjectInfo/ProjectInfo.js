@@ -14,7 +14,7 @@ const ProjectInfo = ({project}) => {
                         <button className="btn btn-project"><a className="link-style" href={project.link} target="_blank">Preview</a></button>
                     </div>
                 </div>
-                <h4 className="pt-3">{project.title}</h4>
+                <h4 className="pt-3 project-title">{project.title}</h4>
                 <p>{project.description}</p>
             </div>
         </div>
