@@ -1,7 +1,7 @@
 import React from 'react';
-import projectImg from '../../../images/plumber copy.png';
-import projectImg_2 from '../../../images/OmegaShop.jpg';
-import projectImg_3 from '../../../images/Riders.jpg';
+import projectImg from '../../../images/hello-plumber.png';
+import projectImg_2 from '../../../images/red-onion.png';
+import projectImg_3 from '../../../images/genius-car.png';
 import ProjectInfo from '../ProjectInfo/ProjectInfo';
 
 const Projects = () => {
@@ -14,15 +14,15 @@ const Projects = () => {
         },
         {
             img: projectImg_2,
-            title: 'O-Mega Shop',
-            description: 'This is a simple e-commerce web site. Here is designed some pages. Using Home page you can order any product.',
-            link: 'https://o-mega-shop.web.app/'
+            title: 'Bengal Dish',
+            description: 'This is a simple restaurant web site. Here is designed some pages. Using Home page you can order any dish item.',
+            link: 'https://bengal-dish-project.web.app/'
         },
         {
             img: projectImg_3,
-            title: 'Desh Riders',
-            description: 'This is a ride sharing web site. In this site you can order any rider. You can set your destination.',
-            link: 'https://desh-riders-app.web.app/'
+            title: 'Genius Car',
+            description: 'This is a car servicing web site. In this site you can order any service. You can set add or delete item.',
+            link: 'https://genius-car-c1ad8.web.app/'
         },
     ]
     return (

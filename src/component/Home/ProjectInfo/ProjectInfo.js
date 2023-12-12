@@ -6,7 +6,10 @@ const ProjectInfo = ({project}) => {
         <div className="col-md-4 text-center">
            <div className="project-content">
                 <div className="project-box">
-                    <img className="img-fluid project-img" src={project.img} alt=""/>
+                   <div className="screen">
+                        <img className="img-fluid project-img" src={project.img} alt=""/>
+                   </div>            
+
                     <div className="project-btn">
                         <button className="btn btn-project"><a className="link-style" href={project.link} target="_blank">Preview</a></button>
                     </div>
