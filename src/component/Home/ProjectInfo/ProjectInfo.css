@@ -53,7 +53,7 @@
     -moz-transition: top 11s;
     -ms-transition: top 11s;
     -o-transition: top 11s;
-    transition: bottom 50s;
+    transition: bottom 11s;
 }
 
 .screen:hover img {
