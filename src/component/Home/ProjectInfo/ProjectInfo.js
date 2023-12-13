@@ -3,7 +3,7 @@ import './ProjectInfo.css';
 
 const ProjectInfo = ({project}) => {
     return (
-        <div className="col-md-4 text-center">
+        <div className="col-md-4 pb-5 text-center">
            <div className="project-content">
                 <div className="project-box">
                    <div className="screen">
