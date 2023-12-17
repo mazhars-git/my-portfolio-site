@@ -25,7 +25,7 @@ const HeaderContent = () => {
 
                     <button className="btn-brand">
                         <a className="link-style noSelect" href="#about">
-                            ABOUT ME
+                            About Me
                         </a>
                     </button>
                     <div className="social-icon pt-4">
