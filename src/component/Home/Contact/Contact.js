@@ -1,7 +1,6 @@
 import { faEnvelope, faHome, faPhone, } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import ReactDOM from "react-dom";
 import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
 import './Contact.css';
@@ -35,7 +34,7 @@ const Contact = () => {
             <h2 className="text-brand p-0 pb-5">Get in Touch</h2>
             <div className="row">
                 <div data-aos="flip-up" className="col-md-4 contact-info pb-2">
-                    <h3 className="text-medium py-2">Contact Info</h3>
+                    <h3 className="text-medium pb-3">Contact Info</h3>
                     <p className="py-2">I am always available for your service. Feel free to contact me to get best project.</p>
                     <ul>
                         <li> <FontAwesomeIcon className="icon" icon={faHome} /> Dhaka, Bangladesh</li>
@@ -45,7 +44,7 @@ const Contact = () => {
                     
                 </div>
                 <div className="col-md-8" data-aos="fade-down-left">
-                    <h3 className="text-medium py-2">Message Me</h3>
+                    <h3 className="text-medium pb-3">Message Me</h3>
                     <form onSubmit={sendEmail}>
                         <input placeholder="Name" name="name" required {...register("name")} />
                         <input placeholder="Email" name="email" required {...register("email")} />
