@@ -4,8 +4,13 @@
     text-align: center;
 }
 .service-info:hover{
-    box-shadow: 5px 5px 10px 2px gray;
+    box-shadow: 5px 5px 10px 3px gray;
     border-radius: 10px;
+    transition: 0.5s;
+}
+.service-info:hover .icon{
+    color: #ff6347;
+    transition: 0.5s;
 }
 .service-info .icon{
     font-size: 50px;
@@ -13,7 +18,7 @@
 }
 
 
-
+/* 
 @keyframes rotate {
 	100% {
 		transform: rotate(.5turn);
@@ -55,4 +60,4 @@
     height: calc(100% - 12px);
     background: rgb(85, 99, 119);
     border-radius: 5px;
-}
+} */

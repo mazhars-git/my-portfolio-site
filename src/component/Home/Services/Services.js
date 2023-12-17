@@ -40,7 +40,7 @@ const Services = () => {
     ]
     return (
         <section id="services" className="container py-5">
-            <h2 className="text-brand">Services</h2>
+            <h2 className="text-brand pb-4">Services</h2>
             <div className="row">
                 {
                     serviceInfo.map(service => <ServiceDetails service={service}></ServiceDetails>)

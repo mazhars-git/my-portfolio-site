@@ -30,7 +30,7 @@ const Contact = () => {
 
     return (
         <section id="contact" className="container py-5">
-            <p className="text-center">Feel free to contact me anytime</p>
+            <p className="text-center">Contact Me</p>
             <h2 className="text-brand p-0 pb-5">Get in Touch</h2>
             <div className="row">
                 <div data-aos="flip-up" className="col-md-4 contact-info pb-2">
