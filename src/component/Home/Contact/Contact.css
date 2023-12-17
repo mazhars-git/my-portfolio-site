@@ -17,6 +17,10 @@
   color: #ff6347;
 }
 
+.social-icon ul li a:hover{
+  color: #fff;
+}
+
 form {
     box-shadow: 5px 5px 10px rgb(175, 175, 175);
     border-radius: 5px;

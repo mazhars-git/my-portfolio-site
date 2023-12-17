@@ -52,6 +52,7 @@ li{
   background-color: none;
   font-family: 'Cinzel', serif;
   font-size: 20px;
+  font-weight: 700;
   cursor: pointer;
   background: transparent;
   transition: 0.3s;
