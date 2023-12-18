@@ -2,11 +2,13 @@
     padding: 10px;
     margin: 10px ;
     text-align: center;
+    color: #16153a;    
+    border-radius: 10px;
+    background-color: #fffdfdda;
 }
 .service-info:hover{
-    box-shadow: 5px 5px 10px 3px gray;
-    border-radius: 10px;
-    transition: 0.5s;
+    box-shadow: 5px 5px 15px #b3b3b3;
+    transition: 0.3s;
 }
 .service-info:hover .icon{
     color: #ff6347;
@@ -16,48 +18,3 @@
     font-size: 50px;
     margin-top: 15px;
 }
-
-
-/* 
-@keyframes rotate {
-	100% {
-		transform: rotate(.5turn);
-	}
-}
-
-.service-box {
-	position: relative;
-	z-index: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 10px;
-	overflow: hidden;
-	padding: 2rem;
-}
-.service-box::before {
-    content: '';
-    position: absolute;
-    z-index: -2;
-    left: -50%;
-    top: -50%;
-    width: 200%;
-    height: 200%;
-    background-color: #399953;
-    background-repeat: no-repeat;
-    background-size: 50% 50%, 50% 50%;
-    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-    background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
-    animation: rotate 4s linear infinite;
-}
-	
-.service-box::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    left: 5px;
-    top: 5px;
-    width: calc(100% - 12px);
-    height: calc(100% - 12px);
-    background: rgb(85, 99, 119);
-    border-radius: 5px;
-} */

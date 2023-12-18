@@ -44,8 +44,6 @@ li{
   list-style: none;
 }
 
-
-
 .btn-brand {
  padding: 15px 30px;
   border: 2px solid #fff;
@@ -55,12 +53,12 @@ li{
   font-weight: 700;
   cursor: pointer;
   background: transparent;
+  transition: 0.5s;
 }
 
 .btn-brand:hover{
   background-color: #fff;
-  border: 2px solid #ff6347;
-  transition: 0.5s;
+  border: 2px solid #ff6347; 
 }
 
 .btn-brand:hover .link-style{
