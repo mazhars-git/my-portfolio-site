@@ -1,0 +1,14 @@
+.social-icon ul li{
+    float: left;
+    margin: 10px;
+    font-size: 30px;
+  }
+  .social-icon ul li a{
+    text-decoration: none;
+    color: #ff6347;
+  }
+  
+  .social-icon ul li a:hover{
+    color: #fff;
+    transition: 0.3s;
+  }

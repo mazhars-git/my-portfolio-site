@@ -4,6 +4,7 @@ import React from 'react';
 import Typical from 'react-typical';
 import profile from '../../../images/profile.png';
 import '../../Home/Contact/Contact.css';
+import './HeaderContent.css';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
