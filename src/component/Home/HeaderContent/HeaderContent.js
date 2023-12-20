@@ -13,7 +13,7 @@ AOS.init();
 
 const HeaderContent = () => {
     return (
-        <section className="container">
+        <section className="container pt-3">
             <div className="row pt-5">
                 <div className="col-md-6 align-self-center">
                     <h3 className="pb-3" style={{color: 'tomato'}}>Hi! I AM MAZHAR</h3>
@@ -39,10 +39,10 @@ const HeaderContent = () => {
                     </div>  
                 </div>
                 <div 
-                    className="col-md-6 pt-4"
-                    data-aos="zoom-in-left"
+                    className="col-md-6 py-4"
+                    data-aos="zoom-in-left"                    
                     >
-                    <img className="img-fluid" src={profile} alt=""/>
+                    <img className="col-sm:d-block img-fluid" src={profile} alt="profile-pic"/>
                 </div>
             </div>
         </section>
