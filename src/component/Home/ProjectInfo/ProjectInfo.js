@@ -4,7 +4,7 @@ import './ProjectInfo.css';
 const ProjectInfo = ({project}) => {
     return (
         <div className="col-md-4 pb-5 text-center">
-           <div className="project-content">
+           <div className="project-content pt-3">
                 <div className="project-box">
                    <div className="screen">
                         <img className="img-fluid project-img" src={project.img} alt=""/>
