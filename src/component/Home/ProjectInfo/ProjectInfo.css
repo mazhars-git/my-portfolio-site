@@ -15,13 +15,8 @@
 .project-box:hover .project-btn {
     opacity: 1;
 }
-
-/* .project-box:hover .project-img{
-    opacity: 0.3;
-    transition: .3s;
-} */
 .project-content {
-    box-shadow: 5px 5px 15px #b3b3b3;
+    box-shadow: 5px 5px 15px #a9bdfa;
     padding: 10px;
     border-radius: 5px;
 }
