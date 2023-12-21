@@ -13,16 +13,16 @@ AOS.init();
 
 const HeaderContent = () => {
     return (
-        <section className="container pt-3">
-            <div className="row pt-5">
+        <section className="container">
+            <div className="row header-content">
                 <div className="col-md-6 align-self-center">
-                    <h3 className="pb-3" style={{color: 'tomato'}}>Hi! I AM MAZHAR</h3>
+                    <h3 className="pb-3" style={{ color: 'tomato' }}>Hi! I AM MAZHAR</h3>
                     <Typical
                         steps={['Full Stack Web Developer', 1000, 'JavaScript Developer', 800, 'React Developer', 800, 'MERN Stack Developer', 500]}
                         loop={Infinity}
                         wrapper="h1"
                     />
-                    <br/>
+                    <br />
 
                     <button className="btn-brand">
                         <a className="link-style noSelect" href="#about">
@@ -36,12 +36,13 @@ const HeaderContent = () => {
                             <li> <a target="_blank" href="https://www.facebook.com/noman.abdullah.71619/"><FontAwesomeIcon className="sIcon" icon={faFacebook} /></a> </li>
                             <li> <a target="_blank" href="https://www.instagram.com/mazhar.in/"><FontAwesomeIcon className="sIcon" icon={faInstagram} /></a> </li>
                         </ul>
-                    </div>  
+                    </div>
                 </div>
-                <div 
-                    className="col-md-6 py-4"                                 
-                    >
-                    <img className="img-fluid" src={profile} alt="profile-pic"/>
+
+                <div
+                    className="col-md-6 py-4"
+                >
+                    <img className="img-fluid" src={profile} alt="profile-pic" />
                 </div>
             </div>
         </section>

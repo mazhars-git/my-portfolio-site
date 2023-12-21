@@ -2,7 +2,6 @@ import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
 import MySkill from '../MySkill/MySkill';
 import Projects from '../Projects/Projects';
 import Services from '../Services/Services';
@@ -18,7 +17,7 @@ const Home = () => {
             <MySkill></MySkill>
             <Services></Services>
             <Projects></Projects>
-            <Contact></Contact>
+            {/* <Contact></Contact> */}
             <Footer></Footer>
         </section>
     );
