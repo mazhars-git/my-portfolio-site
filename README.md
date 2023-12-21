@@ -8,12 +8,13 @@ In the project directory, you can run:
 
 ### `npm start`
 
-### Visit Live Site
+# Visit Live Site
 https://my-portfolio-site-52fab.web.app/
 
 
-### used technologies-
+#used technologies-
 * React 
 * Bootstrap
 * email_sender
 * firebase
+* Responsive 
