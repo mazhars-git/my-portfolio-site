@@ -15,7 +15,7 @@ const HeaderContent = () => {
     return (
         <section className="container">
             <div className="row header-content">
-                <div className="col-md-6 align-self-center">
+                <div className="col-md-6 align-self-center pt-3">
                     <h3 className="pb-3" style={{ color: 'tomato' }}>Hi! I AM MAZHAR</h3>
                     <Typical
                         steps={['Full Stack Web Developer', 1000, 'JavaScript Developer', 800, 'React Developer', 800, 'MERN Stack Developer', 500]}

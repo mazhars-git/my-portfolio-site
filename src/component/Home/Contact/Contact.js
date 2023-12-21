@@ -33,7 +33,7 @@ const Contact = () => {
             <p className="text-center">Contact Me</p>
             <h2 className="text-brand p-0 pb-5">Get in Touch</h2>
             <div className="row">
-                <div data-aos="flip-up" className="col-md-4 contact-info pb-2">
+                <div className="col-md-4 contact-info pb-2">
                     <h3 className="text-medium pb-3">Contact Info</h3>
                     <p className="py-2">I am always available for your service. Feel free to contact me to get best project.</p>
                     <ul>
@@ -43,9 +43,9 @@ const Contact = () => {
                     </ul>
                     
                 </div>
-                <div className="col-md-8" data-aos="fade-down-left">
+                <div className="col-md-8 px-2">
                     <h3 className="text-medium pb-3">Message Me</h3>
-                    <form onSubmit={sendEmail}>
+                    <form onSubmit={sendEmail} className="p-4">
                         <input placeholder="Name" name="name" required {...register("name")} />
                         <input placeholder="Email" name="email" required {...register("email")} />
                         <textarea placeholder="Message" name="message" required {...register("message")} />

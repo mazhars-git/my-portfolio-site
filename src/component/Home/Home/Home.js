@@ -17,7 +17,7 @@ const Home = () => {
             <MySkill></MySkill>
             <Services></Services>
             <Projects></Projects>
-            {/* <Contact></Contact> */}
+            <Contact></Contact>
             <Footer></Footer>
         </section>
     );
