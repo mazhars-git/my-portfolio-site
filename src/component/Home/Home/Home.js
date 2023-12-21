@@ -6,11 +6,14 @@ import Header from '../Header/Header';
 import MySkill from '../MySkill/MySkill';
 import Projects from '../Projects/Projects';
 import Services from '../Services/Services';
+import HeaderContent from '../HeaderContent/HeaderContent';
+import NavMenu from '../NavMenu/NavMenu';
 
 const Home = () => {
     return (
         <section id="home" className="home-section bg-color">
-            <Header></Header>
+            <NavMenu />
+            <HeaderContent />
             <AboutMe></AboutMe>
             <MySkill></MySkill>
             <Services></Services>

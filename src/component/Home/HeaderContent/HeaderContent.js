@@ -39,10 +39,9 @@ const HeaderContent = () => {
                     </div>  
                 </div>
                 <div 
-                    className="col-md-6 py-4"
-                    data-aos="zoom-in-left"                    
+                    className="col-md-6 py-4"                                 
                     >
-                    <img className="col-sm:d-block img-fluid" src={profile} alt="profile-pic"/>
+                    <img className="img-fluid" src={profile} alt="profile-pic"/>
                 </div>
             </div>
         </section>
