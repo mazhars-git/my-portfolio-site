@@ -4,6 +4,7 @@ import projectImg_2 from '../../../images/red-onion.png';
 import projectImg_3 from '../../../images/genius-car.png';
 import projectImg_4 from '../../../images/fundu.png';
 import projectImg_5 from '../../../images/weDo.png';
+import projectImg_6 from '../../../images/pti.png';
 import ProjectInfo from '../ProjectInfo/ProjectInfo';
 
 const Projects = () => {
@@ -37,6 +38,12 @@ const Projects = () => {
             title: 'We Do',
             description: 'This is a web site. In this site you can see the company services and details. You can contact and see the many features.',
             link: 'https://zealous-haibt-4323d4.netlify.app/'
+        },
+        {
+            img: projectImg_6,
+            title: 'pti app',
+            description: 'This is a web site. This is restaurant website. Here you can see the latest items of meal menu. It is responsive also.',
+            link: 'https://resplendent-dieffenbachia-a9779d.netlify.app/'
         },
     ]
     return (
