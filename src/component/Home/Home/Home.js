@@ -8,6 +8,7 @@ import Services from "../Services/Services";
 import HeaderContent from "../HeaderContent/HeaderContent";
 import NavMenu from "../NavMenu/NavMenu";
 import MySkills from "../MySkill/MySkills";
+import Blog from "../Blog/Blog";
 
 const Home = () => {
   return (
@@ -15,10 +16,10 @@ const Home = () => {
       <NavMenu />
       <HeaderContent />
       <AboutMe></AboutMe>
-      <MySkill></MySkill>
       <MySkills />
       <Services></Services>
       <Projects></Projects>
+      <Blog />
       <Contact></Contact>
       <Footer></Footer>
     </section>

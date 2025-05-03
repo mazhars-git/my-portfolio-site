@@ -1,0 +1,15 @@
+.semi-heading {
+  color: #dee2e6;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.semi-heading::after {
+  background-color: #48cae4;
+  content: "";
+  width: 20%;
+  height: 0.1em;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

@@ -1,0 +1,35 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Getting Started with React in 2025",
+      "author": "Jane Doe",
+      "date": "2025-04-28",
+      "tags": ["React", "JavaScript", "Frontend"],
+      "summary": "Learn how to build your first React app with the latest tools and best practices in 2025.",
+      "imageUrl": "https://i.ibb.co.com/7JLyw7D1/new-york-city-4161240-640.jpg",
+      "slug": "getting-started-with-react-2025"
+    },
+
+    {
+      "id": 2,
+      "title": "Designing Accessible Web Interfaces",
+      "author": "John Smith",
+      "date": "2025-03-15",
+      "tags": ["Accessibility", "UI/UX", "Web Design"],
+      "summary": "A practical guide to making your websites more inclusive and accessible for everyone.",
+      "imageUrl": "https://i.ibb.co.com/DHJtgfPQ/reading.jpg",
+      "slug": "designing-accessible-interfaces"
+    },
+    {
+      "id": 3,
+      "title": "Top 10 CSS Tricks You Should Know",
+      "author": "Emma Lee",
+      "date": "2025-01-22",
+      "tags": ["CSS", "Tips", "Web Development"],
+      "summary": "Boost your frontend game with these lesser-known but powerful CSS tricks.",
+      "imageUrl": "https://i.ibb.co.com/Pvnb8HDV/technology.jpg",
+      "slug": "top-10-css-tricks"
+    }
+  ]
+}
