@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 # Visit Live Site
-https://my-portfolio-site-52fab.web.app/
+https://cool-basbousa-d9ccf3.netlify.app
 
 
 #used technologies-
